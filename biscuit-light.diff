@@ -1,0 +1,53 @@
+diff --git a/config.def.h b/config.def.h
+index 2cd740a..91d251d 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -96,32 +96,32 @@ unsigned int tabspaces = 8;
+ /* Terminal colors (16 first used in escape sequence) */
+ static const char *colorname[] = {
+ 	/* 8 normal colors */
+-	"black",
+-	"red3",
+-	"green3",
+-	"yellow3",
+-	"blue2",
+-	"magenta3",
+-	"cyan3",
+-	"gray90",
++	"#181515",
++	"#CB2424",
++	"#9BA636",
++	"#E98F21",
++	"#34709B",
++	"#CF2D8E",
++	"#3E9F85",
++	"#B79F9F",
+
+ 	/* 8 bright colors */
+-	"gray50",
+-	"red",
+-	"green",
+-	"yellow",
+-	"#5c5cff",
+-	"magenta",
+-	"cyan",
+-	"white",
++	"#2B2626",
++	"#de4444",
++	"#b8c44b",
++	"#eea64f",
++	"#428bc0",
++	"#da55a5",
++	"#54bca0",
++	"#DBC6C2",
+
+ 	[255] = 0,
+
+ 	/* more colors can be added after 255 to use with DefaultXX */
+ 	"#cccccc",
+ 	"#555555",
+-	"gray90", /* default foreground colour */
+-	"black", /* default background colour */
++	"#2B2626", /* default foreground colour */
++	"#F4E6D2", /* default background colour */
+ };
